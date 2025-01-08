@@ -1,15 +1,15 @@
 name: Run Python programs
 
 on:
-  push:
-    paths-ignore:
-    - 'epi_judge_cpp*/**'
-    - 'epi_judge_java*/**'
-    - 'html/**'
-    - '.gitignore'
-    - 'index.html'
-    - '*.md'
-    - 'LICENSE'
+#  push:
+#    paths-ignore:
+#    - 'epi_judge_cpp*/**'
+#    - 'epi_judge_java*/**'
+#    - 'html/**'
+#    - '.gitignore'
+#    - 'index.html'
+#    - '*.md'
+#    - 'LICENSE'
   pull_request:
     paths-ignore:
     - 'epi_judge_cpp*/**'
